@@ -49,4 +49,4 @@ int SumOddNumbers(int[] array)
 int[] array = InitArray(5, -10, 10);
 PrintArray("Сгенерированный массив", array);
 
-Console.WriteLine("Количество чётных чисел в массиве: "+SumOddNumbers(array));
+Console.WriteLine("Сумма элементов, стоящих на нечётных позициях: "+SumOddNumbers(array));

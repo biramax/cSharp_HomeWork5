@@ -33,7 +33,7 @@ void PrintArray(string message, int[] array)
 }
 
 // Возвращает сумму элементов, стоящих на нечётных позициях
-int SumOddNumbers(int[] array)
+int SumOddKeyNumbers(int[] array)
 {
     int sum = 0;
 
@@ -49,4 +49,4 @@ int SumOddNumbers(int[] array)
 int[] array = InitArray(5, -10, 10);
 PrintArray("Сгенерированный массив", array);
 
-Console.WriteLine("Сумма элементов, стоящих на нечётных позициях: "+SumOddNumbers(array));
+Console.WriteLine("Сумма элементов, стоящих на нечётных позициях: "+SumOddKeyNumbers(array));
